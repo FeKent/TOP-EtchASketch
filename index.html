@@ -13,12 +13,15 @@
         <div class="content">
             <div class="board"></div>
             <div class="buttons">
-                <button>Black</button>
-                <button>White</button>
-                <button>Random</button>
+                <button onclick="changeColour('black')">Black</button>
+                <button onclick="changeColour('grey')">Grey</button>
+                <button onclick="changeColour('Green')">Green</button>
+                <button onclick="changeColour('lightblue')">Blue</button>
+                <button onclick="changeColour('#F6CF57')">Pikachu</button>
+                <button onclick="changeColour('white')">Eraser</button>
                 <button onclick="populateBoard(16)">Reset</button>
             </div>
-            <div>
+            <div class="sizeSet">
                <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)">
                <button>Set Size</button>
             </div>
