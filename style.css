@@ -2,5 +2,17 @@
     width: 500px;
     height: 500px;
     display: grid;
+    border: 2px solid black;
 }
 
+
+.content,
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    margin-top: 15px;
+}

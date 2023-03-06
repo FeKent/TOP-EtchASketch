@@ -8,6 +8,7 @@ function populateBoard(size){
     let amount = size * size
     for(let i = 0; i<amount; i++){
         let square = document.createElement('div');
+        square.addEventListener('mouseover', ()=>{square.style.backgroundColor = 'black'})
         square.style.backgroundColor = 'blue';
         board.insertAdjacentElement('beforeend', square);
     }
@@ -24,3 +25,8 @@ function changeSize(input){
     }
     
 }
+
+// function resetBoard(){
+//     let resetButton = document.getElementsByClassName('reset');
+//     resetButton.onclick='populateBoard()'
+// }
