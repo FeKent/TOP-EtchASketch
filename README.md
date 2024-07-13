@@ -1,4 +1,4 @@
-# EtchASketch Website
+# EtchASketch Webpage
 The Odin Project: https://www.theodinproject.com/
 
 # Create a browser sketchpad 
