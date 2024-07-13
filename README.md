@@ -3,12 +3,12 @@ The Odin Project: https://www.theodinproject.com/
 
 # Create a browser sketchpad 
 - Create a webpage with a 16x16 grid of square divs
-    Made with Javascript
+   - Made with Javascript
 
 - Set up a hover effect so that the grid divs change color when the mouse passes over them, making a pixelated trail through the grid
 
 - Add a button that allows the user to set the size of the grid
-    It doesn't change the size of the grid but rather the pixels within it
+  -  It doesn't change the size of the grid but rather the pixels within it
 
 - Add buttons to change the colour of the hover effect
 
